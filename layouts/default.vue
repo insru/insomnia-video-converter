@@ -36,15 +36,11 @@ export default defineComponent({
           categoryName: 'Convert Jobs',
           categoryItems: [
             {
-              text: 'Home',
-              path: '/'
-            },
-            {
               text: 'Create',
               path: '/job/create'
             },
             {
-              text: 'List',
+              text: 'All Jobs',
               path: '/job/all'
             },
           ]

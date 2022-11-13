@@ -1,10 +1,11 @@
-<template>
+<template xmlns="http://www.w3.org/1999/html">
   <div>
     <div class="block">
       <p class="title">Insomnia Video Converter</p>
     </div>
     <div class="block">
-      <p class="subtitle">-</p>
+      <p class="subtitle">Internal <a href="https://www.insomniafest.ru/">festival</a> service for content audio and
+        video normalization.</p>
     </div>
   </div>
 </template>
