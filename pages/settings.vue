@@ -11,12 +11,11 @@
 
 <script lang="ts">
 import {defineComponent} from '#imports';
+import {useHead} from '#head';
 
 export default defineComponent({
-  head() {
-    return {
-      title: 'Settings',
-    };
+  setup() {
+    useHead({title: 'Settings'});
   }
 });
 </script>

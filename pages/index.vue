@@ -12,12 +12,11 @@
 
 <script lang="ts">
 import {defineComponent, useWS} from '#imports';
+import {useHead} from '#head';
 
 export default defineComponent({
-  head() {
-    return {
-      title: 'Insomnia Video Converter',
-    };
+  setup() {
+    useHead({title: 'Insomnia Video Converter'});
   },
   mounted() {
     useWS();

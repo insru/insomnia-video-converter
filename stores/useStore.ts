@@ -1,7 +1,7 @@
 import {IAppConfig} from '~/lib/types/interfaces/IAppConfig';
 import {defineStore} from '#imports';
 
-export const useStore = defineStore('config', {
+export const useStore = defineStore('store', {
     state: () => ({
         config: {} as IAppConfig
     }),
